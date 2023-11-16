@@ -7,7 +7,7 @@ No third party libraries or code was used, as the main goal of the project was p
 ## Built with
 
 - HTML
-- Vanilla Javascript
+- Javascript
 - CSS
 
 ## Tools
