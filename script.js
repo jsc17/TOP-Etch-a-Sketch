@@ -22,9 +22,9 @@ function createGrid(squaresPerSide) {
             break;
           case "grayscale":
             let temp = square.style.backgroundColor.split(",");
-            r = parseInt(temp[0].split("(")[1]) - 20;
-            g = parseInt(temp[1].substring(1)) - 20;
-            b = parseInt(temp[2].split(")")[0]) - 20;
+            r = parseInt(temp[0].split("(")[1]) - 25;
+            g = parseInt(temp[1].substring(1)) - 25;
+            b = parseInt(temp[2].split(")")[0]) - 25;
             console.log("rgb(" + r + "," + g + "," + b + ")");
             square.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
             break;
