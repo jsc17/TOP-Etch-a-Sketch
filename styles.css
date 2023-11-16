@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+  padding: 36px;
+}
+
+#grid-container {
+  height: 750px;
+  width: 750px;
+  flex-shrink: 0;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-row {
+  display: flex;
+  flex: 1;
+}
+
+.grid-square {
+  flex: 1;
+}
