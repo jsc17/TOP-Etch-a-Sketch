@@ -23,3 +23,5 @@ No third party libraries or code was used, as the main goal of the project was p
 - Event listeners
 - DOM Manipulation
 - Flexbox
+
+Live code. Try it [here] (https://jsc17.github.io/TOP-Etch-a-Sketch/)
