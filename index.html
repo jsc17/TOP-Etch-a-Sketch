@@ -10,9 +10,34 @@
 </head>
 
 <body>
-    <button id="change">Change grid size</button>
-    <div id="grid-container"></div>
-    <button id="reset">reset</button>
+    <div id="container">
+
+        <div id="instructions">
+            <h1>Etch-a-Sketch</h1>
+            <p>The wonderful childrens toy, re-created right in your browser!</p>
+            <p>Draw to your hearts content, and then use the button below to reset and start again. You can also
+                change the grid size to all for more detailed pictures.</p>
+            <p>Use the options below to change how the Etch-a-Sketch colors itself.</p>
+            <h3>Colors:</h3>
+            <input type="radio" id="black" name="fav_language" value="black" checked="checked">
+            <label for="black">Black</label> <br>
+            <input type="radio" id="grayscale" name="fav_language" value="grayscale">
+            <label for="grayscale">Grayscale</label> <br>
+            <input type="radio" id="rainbow" name="fav_language" value="rainbow">
+            <label for="rainbow">Rainbow</label> <br>
+            <h4>Current Grid size:</h4>
+            <p id="current-grid">16 x 16</p>
+        </div>
+
+        <div id="sketcher">
+            <div id="grid-container"></div>
+            <div id="sketcher-buttons">
+                <button id="reset">Reset</button>
+                <button id="change">Change grid size</button>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>

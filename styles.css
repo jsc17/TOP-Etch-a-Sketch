@@ -1,18 +1,44 @@
 body {
+  height: 100vh;
+  background-color: hsl(360, 0%, 85%);
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  padding: 16px;
+  margin: 0;
+  justify-content: center;
+}
+
+#instructions {
+  padding: 16px;
+  width: 250px;
+  flex-shrink: 0;
+}
+
+#sketcher {
+  justify-self: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 36px;
   padding: 36px;
+  background-color: hsl(360, 100%, 63%);
+  height: 750px;
+  width: 700px;
+  border-radius: 5%;
 }
 
 #grid-container {
-  height: 750px;
-  width: 750px;
+  height: 600px;
+  width: 600px;
   flex-shrink: 0;
   border: 5px solid black;
   display: flex;
   flex-direction: column;
+  background-color: hsl(360, 0%, 95%);
 }
 
 .grid-row {
@@ -22,4 +48,18 @@ body {
 
 .grid-square {
   flex: 1;
+}
+
+#sketcher-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+
+#sketcher-buttons button {
+  background-color: white;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  font-weight: bold;
 }
