@@ -4,6 +4,9 @@ Project to create a digital Etch-a-sketch toy using HTML, CSS, and Javascript fr
 
 No third party libraries or code was used, as the main goal of the project was problem solving and practicing fundamental skills.
 
+[Live demo](https://jsc17.github.io/TOP-Etch-a-Sketch/)
+
+
 ## Built with
 
 - HTML
@@ -24,4 +27,3 @@ No third party libraries or code was used, as the main goal of the project was p
 - DOM Manipulation
 - Flexbox
 
-[Live code](https://jsc17.github.io/TOP-Etch-a-Sketch/)
